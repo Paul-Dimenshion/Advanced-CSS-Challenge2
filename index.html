@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang=en>
+    <head>
+        <meta charset=utf-8>
+        <meta http-equiv=X-UA-Compatible content="IE=edge">
+        <meta name=viewport content="width=device-width,initial-scale=1">
+        <link rel="shortcut icon" type=image/png href=./assets/images/favicon.png>
+        <title>[Paul Dimension] | Full Stack Web Developer</title>
+        <link rel=stylesheet href=./assets/css/style.css>
+    </head>
+    <body>
+        <!-- navbar -->
+        <nav class="navbar">
+            <ul class="menu">
+                <li class="category active"><a href="#">home</a></li>
+                <li class="category"><a href="#about">about</a></li>
+                <li class="category"><a href="#project">projects</a></li>
+                <li class="category"><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- home section -->
+        <header class="active">
+            <h1 class=hero-title class=load-hidden>
+                Hi Everyone!<br>
+                I'm<br>
+                <span class=text-color-main>Paul Dimension</span>
+            </h1>
+            <img src="assets/images/avatar.jpg" class="home-img" alt="I'm PAUL">
+        </header>
+
+        <!-- about section -->
+        <section id=about  class="about-section-active">
+            <div class="about">
+                <div class="about-img-container">
+                    <img src="assets/images/cv.png" class="about-img" alt="">
+                    <a target="_blank" class="download-cv-btn" href="https://docs.google.com/document/d/1GAFAODG0E6vtWe43XbNucnTCKaE-VHWeSvbI25Jd9RA/edit?usp=sharing">downlaod cv</a>
+                </div>
+                <p class="about-info">I just started to professionally code and develop websites and web applications.<br>
+                    Before the war in Ukraine I worked in the field of marketing for 17 years and reached the level of marketing director in a large Ukrainian company. In my work I often crossed with web developers, as marketing is one of the main customers of software development. That's why I needed to understand and understand web development technologies.<br>
+                    After moving to Canada, I clearly realized that web development attracts me very much as the sphere and future business of my life. So I decided to become a qualified specialist in HTML5, CSS3, Javascript, React.js, Node.js, Express, Bootstrap, Python and sure that this list will grow and expand.<br>
+                    Believe in constant learning that enhances my coding skills more and more!!!
+                </p>
+            </div>
+        </section>
+
+        <!-- project section -->
+        <section id="project" class="project-section-active">
+            <h1 class="project-heading">some of my projects</h1>
+            <div class="project-container">
+                <div class="project-card">
+                    <img src="assets/images/pwsg.png" class="project-img" alt="first-web-site">
+                    <div class="project-content">
+                        <h1 class="project-title">Prework Study Guide</h1>
+                        <p class="project-info">
+                            This Prework Study Guide was created for boot camp students who were going through the Prework. It contains notes on HTML, CSS, Git, and JavaScript.
+                        </p>
+                        <div class="project-btn-grp">
+                            <a target="_blank" class="project-btn github" href="https://github.com/Paul-Dimenshion/prework-study-guide.git">github repo</a>
+                            <a target="_blank" class="project-btn live" href="https://paul-dimenshion.github.io/prework-study-guide/">see live</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="assets/images/hgcc.png" class="project-img" alt="HTML-Git-CSS-Challenge">
+                    <div class="project-content">
+                        <h1 class="project-title"> Bootcamp Challenge 1</h1>
+                        <p class="project-info">
+                            This project shows how simple it can look like a properly structured web page, how to make the code more readable and practical, and how easy it is to configure CSS styles with minimal skills and knowledge. I learned to understand the initial code and how to change it.
+                        </p>
+                        <div class="project-btn-grp">
+                            <a target="_blank" class="project-btn github" href="https://github.com/Paul-Dimenshion/HTML-Git-CSS-Challenge.git">github repo</a>
+                            <a target="_blank" class="project-btn live" href="https://paul-dimenshion.github.io/HTML-Git-CSS-Challenge/">see live</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="assets/images/c2.png" class="project-img" alt="">
+                    <div class="project-content">
+                        <h1 class="project-title">Advanced CSS - Chalange2</h1>
+                        <p class="project-info">
+                            In this assignment I tried to create my first portfolios as a web developer.
+                        </p>
+                        <div class="project-btn-grp">
+                            <a target="_blank" class="project-btn github">github repo</a>
+                            <a target="_blank" class="project-btn live">see live</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="assets/images/fp.jpg" class="project-img" alt="Future Project">
+                    <div class="project-content">
+                        <h1 class="project-title">Future Project</h1>
+                        <p class="project-info">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit vitae delectus cumque repudiandae aliquam optio accusamus natus nobis! Nam, sunt?
+                        </p>
+                        <div class="project-btn-grp">
+                            <a target="_blank" class="project-btn github" href="#">github repo</a>
+                            <a target="_blank" class="project-btn live" href="#">see live</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- contact section -->
+        <section id="contact" class="contact-section active">
+            <form class="contact-form">
+                <input type="text" name="name" id="name" autocomplete="off" placeholder="name">
+                <input type="text" name="email" id="email" autocomplete="off" placeholder="email">
+                <textarea name="msg" id="msg" placeholder="message" autocomplete="off"></textarea>
+                <a type="submit" class="form-submit-btn" href="mailto:p.demenshyn@gmail.com">contact</a>
+            </form>
+        </section>
+        <!-- footer -->
+        <footer>
+            <div class="waves">
+                <div class="wave" id="wave1"></div>
+            </div>
+            <ul class="social">
+                <li><a target="_blank" href="https://www.facebook.com/dimension.of.marketing"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                <li><a target="_blank" href="https://twitter.com/Paul_Dimension"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                <li><a target="_blank" href="https://www.linkedin.com/in/pavlo-demenshyn-95bb5b250/"><ion-icon name="logo-linkedin"><ion-icon></a></li>
+                <li><a target="_blank" href="https://github.com/Paul-Dimenshion"><ion-icon name="logo-github"></ion-icon></a></li>
+            </ul>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </footer>
+        <!-- icons for social links -->
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>
